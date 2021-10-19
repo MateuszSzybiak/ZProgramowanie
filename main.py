@@ -1,3 +1,5 @@
+#Mateusz Szybiak Informatyka lab2 19.10.2021
+
 from math import *
 #Zadanie 2
 #a

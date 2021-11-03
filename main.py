@@ -1,6 +1,6 @@
 # Mateusz Szybiak lab3 20.10.2021
-# Zadanie 1
 
+# Zadanie 1
 def hello(name: str, surname: str) -> str:
     return "Cześć " + name + " " + surname + "!"
 
@@ -10,7 +10,6 @@ print(result)
 
 
 # Zadanie 2
-
 def multiply(a: int, b: int) -> int:
     return a * b
 
@@ -19,7 +18,6 @@ print("wynik mnożenia {} i {} to: {}".format(2, 4, multiply(2, 4)))
 
 
 # Zadanie 3
-
 def check_even(a: int) -> bool:
     return a % 2 == 0
 
@@ -32,7 +30,6 @@ else:
 
 
 # Zadanie 4
-
 def check(a: int, b: int, c: int) -> bool:
     return a + b >= c
 
@@ -44,7 +41,6 @@ else:
 
 
 # Zadanie 5
-
 def check_if_in(lst: list, a: int) -> bool:
     return a in lst
 
@@ -58,8 +54,8 @@ else:
 
 
 # Zadanie 6
-
 def concatenate(lista_1: list, lista_2: list) -> list:
+
     res = []
     for i in lista_1:
         res.append(i)

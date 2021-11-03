@@ -2,7 +2,6 @@
 
 from math import *
 
-
 # Zadanie 2
 # a
 def names(name) -> None:
@@ -41,9 +40,11 @@ for i in range(len(lista)):
     if lista[i] % 2 == 0:
         print(lista[i])
 
+
 # d
 
 lista1 = [1, 2, 5, 10, 13, 14, 18, 21, 24, 30]
 
 for i in range(floor(len(lista1) / 2)):
     print(lista1[2 * i + 1])
+

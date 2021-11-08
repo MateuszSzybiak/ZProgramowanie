@@ -3,6 +3,7 @@
 from Library import *
 from Student import *
 from Book import *
+from Property import *
 
 # Zadanie 1
 
@@ -30,3 +31,10 @@ book4 = Book(lib2, '03/11/2015', 'Org', 'Hitt', 260)
 book5 = Book(lib2, '09/01/2000', 'Lytt', 'Tyn', 321)
 
 print(book1.__str__())
+
+# Zadanie 3
+
+house = House(150, 5, 600000, "Katowice", 400)
+flat = Flat(74, 3, 400000, "Gliwice", 3)
+print(house)
+print(flat)

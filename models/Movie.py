@@ -1,5 +1,5 @@
 class Movie:
-    def __init__(self, Id: int, title: str, genres):
-        self.Id = Id
-        self.title = title
-        self.genres = genres
+    def __init__(self, parameters):
+        self.Id = int(parameters[0])
+        self.title = str(parameters[1])
+        self.genres = parameters[2]
